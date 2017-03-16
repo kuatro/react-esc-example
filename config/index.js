@@ -96,15 +96,15 @@ const config = {
   // ----------------------------------
   // Middleware Configuration
   // ----------------------------------
-  // middlewares: {
-  //   byFolder: false,   // When true, esc will get the middlewares from store/middleware/index
-  //   collection: [],    // Middlewares put in here will also be added
-  //
-  //   logger: {          // Redux logger config
-  //     enabled: false,  // Is redux logger enabled
-  //     options: {}      // Custom options for redux logger
-  //   }
-  // },
+  middlewares: {
+    byFolder: true,   // When true, esc will get the middlewares from store/middleware/index
+    collection: [],    // Middlewares put in here will also be added
+
+    logger: {          // Redux logger config
+      enabled: false,  // Is redux logger enabled
+      options: {}      // Custom options for redux logger
+    }
+  },
 
   defaultLayout,
   reducers,
